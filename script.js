@@ -98,7 +98,7 @@ function showRecommendation() {
   if (recommendation) {
     const { name, image } = recommendation;
     recommendationDiv.innerHTML = `
-      <p>${name}!</p>
+      <p>${name}! 😎👉👉</p>
       <div class="image-container">
         <img src="${image}" alt="${name} Image">
       </div>
